@@ -1,0 +1,75 @@
+h1{
+    border-radius: 30px;
+    margin:20px ;
+    border:5px aqua solid;
+    text-align: center;
+    text-decoration-style: wavy;
+    padding: 40px;
+    background-color:  rgb(243, 243, 243);
+} 
+h1:hover{
+ box-shadow: 6px  6px 12px rgb(104, 99, 101);
+
+}
+img{
+   width:200px;
+   height:150px;
+}
+img:hover{
+   box-shadow: 6px  6px 12px rgb(104, 99, 101);
+}
+.name{
+font-size:30px;
+font-weight: bolder;
+color:rgb(10, 9, 9);
+letter-spacing: 1px;
+/* padding-left: 50px; */
+}
+
+a:hover{
+color:rgb(127, 11, 221);
+font-size:18px
+}
+.name:hover{
+text-shadow: 6px  6px 12px rgb(180, 159, 166);
+}
+.row{
+margin:0 auto;
+/* padding:10px; */
+
+}
+
+ *{
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+body{
+ margin: 0;
+ padding:0;
+background-color:azure;
+}
+.center{
+ padding:60px 0px;
+}
+.center-info{
+ padding:60px 10px;
+ margin:30px 0px;
+ border:black;
+}
+.text{
+ margin:20px 0px;
+}
+.col-sm-3{
+ border: 5px solid aqua;
+ border-radius: 20px 30px 47px 20px;
+ margin:1px 30px 15px 45px;
+ transition: all 0.2s;
+ background-color: rgb(243, 243, 243);
+}
+.col-sm-3:hover{
+ box-shadow: 6px  6px 12px black;
+}
+.price{
+ color:rgb(28, 175, 28);
+ font-weight: bolder;
+}
